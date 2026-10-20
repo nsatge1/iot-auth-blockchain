@@ -1,7 +1,6 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 require('dotenv').config();
 
-console.log("INFURA_PROJECT_ID:", process.env.INFURA_PROJECT_ID);
 console.log("MNEMONIC:", process.env.MNEMONIC ? '✅ Loaded' : '❌ Not loaded');
 
 module.exports = {

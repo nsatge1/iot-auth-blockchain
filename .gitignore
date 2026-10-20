@@ -178,3 +178,6 @@ package-lock.json
 truffle/node_modules/
 truffle/.env
 .env
+
+# macOS
+.DS_Store
